@@ -1,0 +1,784 @@
+/* general CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&family=PT+Sans&display=swap');
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body,
+html {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    line-height: 1.5;
+    background-color: #000000;
+}
+/* navbar css */
+.header{
+    background-color: rgb(0, 0, 0);
+    padding: 1rem 0;
+}
+.header .navbar-brand img{
+    width:20rem;
+    height: 10rem;
+}
+.header .navbar-nav .nav-link{
+    color: wheat;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.35rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    margin: 0 0.2rem;
+}
+.header .nav-item:hover{
+    color: blue;
+}
+
+.header .navbar-nav .nav-link:hover{
+    color: blue;
+    background-color: transparent;
+}
+.header .navbar-nav li:hover{
+    display: block;
+}
+.header .navbar-toggler{
+    color:white;
+    font-size: 2rem;
+    height: 2.7rem;
+    padding: 0;
+}
+.header .navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+} 
+
+/*navbar media query*/
+@media (max-width:991.5px) {
+
+    /* 01 Navbar CSS */
+.header .navbar-collapse{
+    padding: 2rem;
+}
+.header .navbar-nav .nav-link{
+    padding: 0.6rem 0.5rem;
+    margin-bottom: 2rem;
+}
+}
+@media (max-width:767.5px) {
+
+    /*general CSS*/
+body,
+html{
+    font-size: 8px;
+}
+}
+@media (max-width:590px){
+body,
+html{
+    font-size: 7px;
+}
+}
+.bgimg1{
+    background-image: url('../images/babar-min.png');
+}
+.bgimg2{
+    background-image: url('../images/rassie.png');
+}
+.bgimg3{
+    background-image: url('../images/davidwarner.png')
+}
+.bgimg4{ 
+    background-image: url('../images/quinton.png');
+ }
+.bgimg5{
+    background-image: url('../images/imad.png')
+}
+.bgimg6{
+    background-image: url('../images/shubman.png');
+}
+.bgimg7{
+    background-image: url('../images/virat.png');
+}
+.bgimg8{
+    background-image: url('../images/rohit.png');
+}
+.bgimg9{
+    background-image: url('../images/stevesmith.png');
+}
+.bgimg10{
+    background-image: url('../images/kaneW.png');
+}
+.bgimg11{
+    background-image: url('../images/fakharzaman.png');
+}
+.bgimg12{
+    background-image: url('../images/johnybairstow.png');
+}
+.bgimg13{
+    background-image: url('../images/herrytactor.png');
+}
+.bgimg14{
+    background-image: url('../images/shaihope.png');
+}
+.bgimg15{
+    background-image: url('../images/tamim.png');
+}
+.bgimg16{
+    background-image: url('../images/paulstirling.png');
+}
+.bgimg17{
+    background-image: url('../images/jasonroy.png');
+}
+.bgimg18{
+    background-image: url('../images/joeroot.png');
+}
+.bgimg19{
+    background-image: url('../images/davidmiller-min.png');
+}
+.bgimg20{
+    background-image: url('../images/joebuttler.png');
+}
+.bgimg21{
+    background-image: url('../images/shreyas.png');
+}
+.bgimg22{
+    background-image: url('../images/mushfiqur.png');
+}
+.bgimg23{
+    background-image: url('../images/alexcarey-min.png');
+}
+.bgimg24{
+    background-image: url('../images/glenn.png');
+}
+.bgimg25{
+    background-image: url('../images/rahmatshah.png');
+}
+.bgimg26{
+    background-image: url('../images/nicholasP.png');
+}
+.bgimg27{
+    background-image: url('../images/tomlattham.png');
+}
+.bgimg28{
+    background-image: url('../images/travishead.png');
+}
+.bgimg29{
+    background-image: url('../images/litondas.png');
+}
+.bgimg30{
+    background-image: url('../images/sikandarraza.png');
+}
+.bgimg31{
+    background-image: url('../images/shikhar.png');
+}
+.bgimg32{
+    background-image: url('../images/shakibhasan.png');
+}
+.bgimg33{
+    background-image: url('../images/guptill.png');
+}
+.bgimg34{
+    background-image: url('../images/mahmudullah.png');
+}
+.bgimg35{
+    background-image: url('../images/erasmus.png');
+}
+.bgimg36{
+    background-image: url('../images/devonconway-min.png');
+}
+.bgimg37{
+    background-image: url('../images/charith-min.png');
+}
+.bgimg38{
+    background-image: url('../images/balbirnie-min.png');
+}
+.bgimg39{
+    background-image: url('../images/coetzer-min.png');
+}
+.bgimg40{
+    background-image: url('../images/najibullahZ.png');
+}
+.bgimg41{
+    background-image: url('../images/klrahul.png');
+}
+.bgimg42{
+    background-image: url('../images/klaasen.png');
+}
+.bgimg43{
+    background-image: url('../images/assadvala-min.png');
+}
+.bgimg44{
+    background-image: url('../images/monank.png');
+}
+.bgimg45{
+    background-image: url('../images/ishankishan.png');
+}
+.bgimg46{
+    background-image: url('../images/munsey.png');
+}
+.bgimg47{
+    background-image: url('../images/ibrahimzadran.png');
+}
+.bgimg48{
+    background-image: url('../images/harissohail.png');
+}
+.bgimg49{
+    background-image: url('../images/kusalmendis.png');
+}
+.bgimg50{
+    background-image: url('../images/temba.png');
+}
+.bgimg51{
+    background-image: url('../images/aqib-min.png');
+}
+.bgimg52{
+    background-image: url('../images/hashmatullah.png');
+}
+.bgimg53{
+    background-image: url('../images/aiden-min.png');
+}
+.bgimg54{
+    background-image: url('../images/aaron-min.png');
+}
+.bgimg55{
+    background-image: url('../images/rahmanullah.png');
+}
+.bgimg56{
+    background-image: url('../images/janneman.png');
+}
+.bgimg57{
+    background-image: url('../images/shimron.png');
+}
+.bgimg58{
+    background-image: url('../images/sean.png');
+}
+.bgimg59{
+    background-image: url('../images/dawid-min.png');
+}
+.bgimg60{
+    background-image: url('../images/scottedwards.png');
+}
+.bgimg61{
+    background-image: url('../images/avishka-min.png');
+}
+.bgimg62{
+    background-image: url('../images/zeeshan.png');
+}
+.bgimg63{
+    background-image: url('../images/jatinder.png');
+}
+.bgimg64{
+    background-image: url('../images/rizwan.png');
+}
+.bgimg65{
+    background-image: url('../images/nabi.png');
+}
+.bgimg66{
+    background-image: url('../images/richie.png');
+}
+.bgimg67{
+    background-image: url('../images/marnus.png');
+}
+.bgimg68{
+    background-image: url('../images/dasun-min.png');
+}
+.bgimg69{
+    background-image: url('../images/mitchellS.png');
+}
+.bgimg70{
+    background-image: url('../images/henrynicholls.png');
+}
+.bgimg71{
+    background-image: url('../images/kusalparera.png');
+}
+.bgimg72{
+    background-image: url('../images/vriitya.png');
+}
+.bgimg73{
+    background-image: url('../images/danushka-min.png');
+}
+.bgimg74{
+    background-image: url('../images/angelo-min.png');
+}
+.bgimg75{
+    background-image: url('../images/hardik.png');
+}
+.bgimg76{
+    background-image: url('../images/imad.png');
+}
+.bgimg77{
+    background-image: url('../images/tomcooper.png');
+}
+.bgimg78{
+    background-image: url('../images/steventaylor.png');
+}
+.bgimg79{
+    background-image: url('../images/marcusS.png');
+}
+.bgimg80{
+    background-image: url('../images/dhananjaya-min.png');
+}
+.bgimg81{
+    background-image: url('../images/evin.png');
+}
+.bgimg82{
+    background-image: url('../images/rohitkumar.png');
+}
+.bgimg83{
+    background-image: url('../images/soumya.png');
+}
+.bgimg84{
+    background-image: url('../images/mitchelM.png');
+}
+.bgimg85{
+    background-image: url('../images/michealB.png');
+}
+.bgimg86{
+    background-image: url('../images/sarfaraz.png');
+}
+.bgimg87{
+    background-image: url('../images/sharmarh.png');
+}
+.bgimg88{
+    background-image: url('../images/mehidy.png');
+}
+.bgimg89{
+    background-image: url('../images/pathum.png');
+}
+.bgimg90{
+    background-image: url('../images/craig-min.png');
+}
+.bgimg91{
+    background-image: url('../images/finn.png');
+}
+.bgimg92{
+    background-image: url('../images/michealL.png');
+}
+.bgimg93{
+    background-image: url('../images/Max.png');
+}
+.bgimg94{
+    background-image: url('../images/niroshan.png');
+}
+.bgimg95{
+    background-image: url('../images/gajanand.png');
+}
+.bgimg96{
+    background-image: url('../images/afif-min.png');
+}
+.bgimg97{
+    background-image: url('../images/neesham.png');
+}
+.bgimg98{
+    background-image: url('../images/moeen.png');
+}
+.bgimg99{
+    background-image: url('../images/cameron-min.png');
+}
+.bgimg100{
+    background-image: url('../images/philipsalt.png');
+}
+.bgimg1,.bgimg2,.bgimg3,.bgimg4,.bgimg5,.bgimg6,.bgimg7,.bgimg8,.bgimg9,.bgimg10,.bgimg11,.bgimg12,.bgimg13,.bgimg14,.bgimg15,
+.bgimg16,.bgimg17,.bgimg18,.bgimg19,.bgimg20,.bgimg21,.bgimg22,.bgimg23,.bgimg24,.bgimg25,.bgimg26,.bgimg27,.bgimg28,.bgimg29,.bgimg30,
+.bgimg31,.bgimg32,.bgimg33,.bgimg34,.bgimg35,.bgimg36,.bgimg37,.bgimg38,.bgimg39,.bgimg40,.bgimg41,.bgimg42,.bgimg43,.bgimg44,.bgimg45,.bgimg46,.bgimg47,
+.bgimg48,.bgimg49,.bgimg50,.bgimg51,.bgimg52,.bgimg53,.bgimg54,.bgimg55,.bgimg56,.bgimg57,.bgimg58,.bgimg59,.bgimg60,.bgimg61,.bgimg62,.bgimg63,
+.bgimg64,.bgimg65,.bgimg66,.bgimg67,.bgimg68,.bgimg69,.bgimg70,.bgimg71,.bgimg72,.bgimg73,.bgimg74,.bgimg75,.bgimg76,.bgimg77,.bgimg78,.bgimg79,.bgimg80,
+.bgimg81,.bgimg82,.bgimg83,.bgimg84,.bgimg85,.bgimg86,.bgimg87,.bgimg88,.bgimg89,.bgimg90,.bgimg91,.bgimg92,.bgimg93,.bgimg94,.bgimg95,.bgimg96,.bgimg97,
+.bgimg98,.bgimg99,.bgimg100{
+    background-size:cover; 
+    color: #000000;
+    height:80vh;
+    width: 100%; 
+    background-position: center;
+    opacity: .7;
+    top: 80px;
+    margin-top: 140px;
+}
+@media (max-width: 767.5px){
+    .bgimg1,.bgimg2,.bgimg3,.bgimg4,.bgimg5,.bgimg6,.bgimg7,.bgimg8,.bgimg9,.bgimg10,.bgimg11,.bgimg12,.bgimg13,.bgimg14,.bgimg15,
+    .bgimg16,.bgimg17,.bgimg18,.bgimg19,.bgimg20,.bgimg21,.bgimg22,.bgimg23,.bgimg24,.bgimg25,.bgimg26,.bgimg27,.bgimg28,.bgimg29,.bgimg30,
+    .bgimg31,.bgimg32,.bgimg33,.bgimg34,.bgimg35,.bgimg36,.bgimg37,.bgimg38,.bgimg39,.bgimg40,.bgimg41,.bgimg42,.bgimg43,.bgimg44,.bgimg45,.bgimg46,.bgimg47,
+    .bgimg48,.bgimg49,.bgimg50,.bgimg51,.bgimg52,.bgimg53,.bgimg54,.bgimg55,.bgimg56,.bgimg57,.bgimg58,.bgimg59,.bgimg60,.bgimg61,.bgimg62,.bgimg63,
+    .bgimg64,.bgimg65,.bgimg66,.bgimg67,.bgimg68,.bgimg69,.bgimg70,.bgimg71,.bgimg72,.bgimg73,.bgimg74,.bgimg75,.bgimg76,.bgimg77,.bgimg78,.bgimg79,.bgimg80,
+    .bgimg81,.bgimg82,.bgimg83,.bgimg84,.bgimg85,.bgimg86,.bgimg87,.bgimg88,.bgimg89,.bgimg90,.bgimg91,.bgimg92,.bgimg93,.bgimg94,.bgimg95,.bgimg96,.bgimg97,
+    .bgimg98,.bgimg99,.bgimg100{
+        background-size: cover;
+        height: 280px;
+        width: 100%;
+    }
+}
+/*images below banner*/
+.img2{
+    background-image: url('../images/playerbg.jpg');
+    background-size:cover; 
+    color: #000000;
+    height:60vh;
+    width: 100%; 
+    background-position: center;
+    opacity: .7;
+    margin-top: 120px;
+}
+@media (max-width: 767.5px){
+    .img2{
+        background-size: cover;
+        height: 280px;
+        width: 100%;
+    }
+}
+.img3{
+    background-image: url('../images/bgimg2.jpg');
+    min-height: 400px;
+}
+.img2,.img3{
+    position: relative;
+    background-position: center;
+    opacity: 0.75;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.banner-wrapper{
+    background-color: #000000;
+    padding-bottom: 100px;
+}
+/*section style1*/
+.section-style1
+{
+    background-color: #000000d3;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    text-align: center;
+}
+.section-style1 h2{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(223, 118, 7);
+    font-size: 3vw;
+    justify-content: center;
+}
+.section-style1 h4{
+    color: rgb(223, 118, 7);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    justify-content: center;
+    padding-top: 20px;
+}
+.section-style1 p{
+    color: wheat;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 150%;
+    padding-top: 30px;
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+@media (max-width:1199.5px) {
+    .section-style1 p{
+        padding-left: 100px ;
+        padding-right: 100px;
+    }
+}
+@media (max-width:991.5px) {
+    .section-style1 p{
+        padding-left: 120px ;
+        padding-right: 120px;
+    }
+}
+@media (max-width:767.5px) {
+    .section-style1 p{
+        padding-left: 80px ;
+        padding-right: 80px;
+    }
+}
+@media (max-width:590px) {
+    .section-style1 p{
+        padding-left: 80px ;
+        padding-right: 80px;
+    }
+}
+/*section style2 */
+.section-style2
+{
+    background-color: rgb(35, 58, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 10px 10px 10px #ffffff;
+    opacity: .8;
+}
+.img2 .txting,
+.img3 .txting{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.img2 .txting .txtborder,
+.img3 .txting .txtborder{
+    background-color: #ffffff;
+    color: #000000;
+    opacity: .80;
+    padding: 25px;
+}
+@media (max-width:600px){
+    .img2 .txting,
+    .img3 .txting
+    {
+        font-size: 28px;
+    }
+}
+.section-style2 .table-container{
+    padding-top: 10px;
+    margin: 40px auto 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.section-style2 .table-container .heading{
+    margin-top: 10rem;
+}
+.section-style2 .table-container table{
+    background-color: rgb(35, 58, 87);
+    width: 100%;
+    border-collapse: collapse;
+}
+.section-style2 .table-container .table tr{
+    font-size: 100%;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: wheat;
+    opacity: .8;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid #00000085;
+}
+.section-style2 .table-container .table tbody tr td{
+    font-size: 150%;
+    letter-spacing: 0.35px;
+    font-weight: 800;
+    color: black;
+    background-color: rgb(164, 206, 206);
+    padding: 8px;
+    text-align: center;
+    border: 3px solid #00000085;
+}
+.section-style2 .table-container .table tbody tr td:hover{
+    font-size: 150%;
+    letter-spacing: 0.35px;
+    font-weight: 800;
+    color: black;
+    background-color: rgb(156, 196, 146);
+    padding: 8px;
+    text-align: center;
+    border: 3px solid #00000085;
+    cursor: pointer;
+}
+/*section style 3*/
+.section-style3
+{
+    background-color: rgb(112, 95, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 10px 10px 10px #ffffff;
+    opacity: .8;
+}
+.section-style3 .table-container{
+    padding-top: 10px;
+    margin: 40px auto 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.section-style3 .table-container .heading{
+    margin-top: 10rem;
+}
+.section-style3 .table-container table{
+    background-color: rgb(112, 95, 112);
+    width: 100%;
+    border-collapse: collapse;
+}
+.section-style3 .table-container .table tr{
+    font-size: 100%;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    opacity: .8;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid #00000085;
+}
+.section-style3 .table-container .table tbody tr td{
+    font-size: 150%;
+    letter-spacing: 0.35px;
+    font-weight: 800;
+    color: black;
+    background-color: rgb(173, 230, 172);
+    padding: 8px;
+    text-align: center;
+    border: 3px solid #00000085;
+}
+.section-style3 .table-container .table tbody tr td:hover{
+    font-size: 150%;
+    letter-spacing: 0.35px;
+    font-weight: 800;
+    color: black;
+    background-color: rgb(130, 194, 201);
+    padding: 8px;
+    text-align: center;
+    border: 3px solid #00000085;
+    cursor: pointer;
+}
+
+@media (max-width:767.5px) {
+/*table css*/
+    .section-style2 .table-container .table, .table tbody, .table tr, .table td,
+    .section-style3 .table-container .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+    .section-style2 .table-container .table tr,
+    .section-style3 .table-container .table tr{
+        margin-bottom: 15px;
+    }
+    .section-style2 .table-container .table tbody tr td,
+    .section-style3 .table-container .table tbody tr td{
+        text-align: center;
+    
+        position: relative;
+    }
+    .section-style2 .table-container .table td:before,
+    .section-style3 .table-container .table td:before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 600;
+        font-size: 10px;
+        text-align: left;
+    }
+}
+/*footer*/
+footer{
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social_icon,
+footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li,
+footer .menu li{
+    list-style: none;
+}
+footer .social_icon li a,
+footer .menu li a{
+    font-size: 2em;
+    color: #ffffff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover{
+    transform: translate(-10px);
+}
+footer .menu li a{
+    font-size: 1.4em;
+    color: #ffffff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+footer .wave{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background: url('../images/wave.png');
+    background-size: 1000px 100px;
+}
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave 3s linear infinite;
+}
+@keyframes animateWave{
+    0%{
+        background-position-x: 800px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+@keyframes animateWave_02{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 800px;
+    }
+}
